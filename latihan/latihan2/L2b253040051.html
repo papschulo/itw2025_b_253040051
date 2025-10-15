@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabel dan Form</title>
+</head>
+<body>
+    <table width="40%" border="1px" cellpadding="10px">
+        <tr>
+            <th colspan="3" align="center" style="background-color: gray;">Input Data Mahasiswa</th>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>:</td>
+            <td><form><input type="text"</form></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><form><input type="text"</form></td>
+        </tr>
+        <tr>
+            <td>Fullname</td>
+            <td>:</td>
+            <td><form><input type="text"</form></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td>:</td>
+            <td><form><input type="text"</form></td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td><form><select><option name="Agama" selected>--Pilih Agama--</option>
+                <option value="islam">Islam</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="katolik">Katolik</option>
+                <option value="kristen">Kristen</option>
+                <option value="Khonghucu">Khonghucu</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamiin</td>
+            <td>:</td>
+            <td><form>
+                <input type="radio" name="jeniskel" value="Laki-laki"/> Pria
+                <input type="radio" name="jeniskel" value="Perempuan"/> Perempuan
+            </form></td>
+        </tr>
+        <tr>
+            <td>Profil singkat</td>
+            <td>:</td>
+            <td><form><textarea rows="3" cols="40" name="profilsingkat"></textarea></form></td>
+        </tr>
+        <tr>
+            <td colspan="3"><form align="right"><input type="submit" name="input" value="input"</form></td>
+        </tr>
+    </table>
+</body>
+</html>
