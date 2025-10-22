@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 h3 a:link {
@@ -38,6 +38,7 @@ h4 {
 .p1 {
   text-align: center;
   color: orange;
+  text-indent: 0.5cm;
 }
 
 .p2 {

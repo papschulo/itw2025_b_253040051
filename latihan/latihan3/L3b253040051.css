@@ -19,12 +19,13 @@ h4 {
   font-style: italic;
 }
 
-#p1 {
+.p1 {
   text-align: center;
   color: orange;
+  text-indent: 0.4cm;
 }
 
-#p2 {
+.p2 {
   text-align: center;
-  line-height: 1cm;
+  line-height: 0.7cm;
 }

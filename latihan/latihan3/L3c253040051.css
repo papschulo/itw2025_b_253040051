@@ -29,11 +29,13 @@ h4 {
 .p1 {
   text-align: center;
   color: orange;
+  text-indent: 0.4cm;
 }
 
 .p2 {
   text-align: center;
   line-height: 1.8;
+  text-indent: 0.4cm;
 }
 
 p > a {
