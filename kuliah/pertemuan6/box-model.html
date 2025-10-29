@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Box Model</title>
+    <style>
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: royalblue;
+        /* margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 40px; */
+        /* margin: 40px 10px; */
+        /* margin: auto; */
+        /* margin-left: -120px;
+        transform: rotate(90);
+        transform-origin: bottom right;
+        transition: 1s; */
+        margin-bottom: -10px;
+      }
+
+      .kotak1:hover {
+        margin-left: 0px;
+        transform: rotate(0);
+      }
+
+      .kotak2 {
+        width: 80px;
+        height: 80px;
+        background-color: bisque;
+        margin-top: 40px;
+        padding: 15px;
+        border: 2px dashed black;
+      }
+
+      a {
+        background-color: lightcyan;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin-top: 20px;
+        text-align: center;
+        border: 2px dashed black;
+        padding: 5px;
+        transition: 0.8s;
+      }
+
+      a:hover {
+        background-color: aquamarine;
+        color: salmon;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1">Kotak 1</div>
+    <div class="kotak2">Kotak 2</div>
+
+    <div class="tautan">
+      <a href="#">Home</a>
+      <a href="#">Contact</a>
+      <a href="#">About Me</a>
+    </div>
+  </body>
+</html>
