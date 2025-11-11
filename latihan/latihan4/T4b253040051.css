@@ -144,7 +144,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 960px;
   margin: auto;
   background-color: white;
 }
@@ -186,40 +186,43 @@ body {
 
 .hero {
   background-image: url(img/muaythai\ 1.jpg);
-  height: 250px;
-  background-position: 0 -520px;
+  height: 320px;
+  background-position: 0 -5000px;
   background-size: cover;
   border-top: 8px solid red;
   border-bottom: 8px solid lightblue;
 }
 
-.konten {
+.main {
   padding: 20px;
+  width: 600px;
+  box-sizing: border-box;
+  float: left;
 }
 
-.konten .penulis a {
+.main .penulis a {
   text-decoration: none;
   color: #6e1515;
   padding: 2px;
 }
 
-.konten .penulis a:hover {
+.main .penulis a:hover {
   transition: 0.5s;
   background-color: lightblue;
   color: white;
 }
 
-.konten h2 {
+.main h2 {
   font-size: 28px;
   font-weight: bold;
 }
 
-.konten .penulis {
+.main .penulis {
   font-size: 14px;
   margin-top: 5px;
 }
 
-.konten p {
+.main p {
   margin-bottom: 20px;
   font-size: 18px;
   text-align: justify;
@@ -242,8 +245,8 @@ body {
   background-position: 0 -620px;
   background-size: cover;
   margin-bottom: 20px;
-  border-top: 5px solid #212121;
-  border-bottom: 5px solid #212121;
+  border-top: 5px solid #ffab23;
+  border-bottom: 5px solid #ffab23;
 }
 
 .img3 {
@@ -252,8 +255,8 @@ body {
   background-position: 0 -450px;
   background-size: cover;
   margin-bottom: 20px;
-  border-top: 5px solid #212121;
-  border-bottom: 5px solid #212121;
+  border-top: 5px solid #ffab23;
+  border-bottom: 5px solid #ffab23;
 }
 
 .konten h3 {
@@ -283,4 +286,19 @@ body {
   color: white;
   background-color: #1a3263;
   transition: 0.6s;
+}
+
+/* clearfix */
+cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
 }
