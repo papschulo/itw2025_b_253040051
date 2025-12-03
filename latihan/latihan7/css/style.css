@@ -1,0 +1,21 @@
+body {
+  min-height: 2000px;
+  background-color: #fff;
+}
+nav {
+  background-color: #778873;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a1bc98;
+}
+
+#gallery {
+  background-color: #a1bc98;
+}
+
+footer {
+  background-color: #778873;
+}
